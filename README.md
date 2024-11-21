@@ -56,6 +56,8 @@ The model uses the following features for prediction:
 3. **svm_liver_disease_model.pkl**: Trained SVM model for predictions.
 4. **app.py**: Streamlit code for deploying the model as a web app.
 
+Find the Model URL here: https://parth858-liver-disease-prediction-model.streamlit.app/
+
 
 
 
