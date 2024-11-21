@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load the scaler and model
-scaler = pickle.load(open('C:/Users/kulkarpa/Desktop/assignments ExcelR/Project/scaler.pkl', 'rb'))
-model = pickle.load(open('C:/Users/kulkarpa/Desktop/assignments ExcelR/Project/svm_liver_disease_model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = pickle.load(open('svm_liver_disease_model.pkl', 'rb'))
 
 # Title and Description
 st.title("Liver Disease Prediction")
